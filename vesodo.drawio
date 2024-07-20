@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-20T01:53:10.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Falm8FFHTLPu_khFCU7F" version="24.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-20T02:07:17.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="UH0XvxWcz_dYDzR2QC-s" version="24.7.2" type="github">
   <diagram name="Trang-1" id="fo5sD_-0tJ8vP4LHHZJ6">
-    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="548" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
             <mxPoint x="349.72" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thEdo2LgNELzhUTBHd1d-4" value="n&amp;lt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thEdo2LgNELzhUTBHd1d-4" value="n&amp;nbsp;&lt;span style=&quot;color: rgb(189, 193, 198); font-family: Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;⋮ 2&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="thEdo2LgNELzhUTBHd1d-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="thEdo2LgNELzhUTBHd1d-4">
@@ -25,37 +25,51 @@
             <mxPoint x="400" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thEdo2LgNELzhUTBHd1d-6" value="n=n*-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="thEdo2LgNELzhUTBHd1d-6" value="số chăn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="thEdo2LgNELzhUTBHd1d-8" value="xuất n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="thEdo2LgNELzhUTBHd1d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thEdo2LgNELzhUTBHd1d-8" target="thEdo2LgNELzhUTBHd1d-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thEdo2LgNELzhUTBHd1d-9" value="Đúng" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="thEdo2LgNELzhUTBHd1d-8" value="số lẻ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="thEdo2LgNELzhUTBHd1d-9" value="sai" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="480" as="sourcePoint" />
-            <mxPoint x="410" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thEdo2LgNELzhUTBHd1d-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="thEdo2LgNELzhUTBHd1d-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="520" as="sourcePoint" />
-            <mxPoint x="450" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thEdo2LgNELzhUTBHd1d-11" value="Sai" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="thEdo2LgNELzhUTBHd1d-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="400" as="sourcePoint" />
-            <mxPoint x="530" y="370" as="targetPoint" />
+            <mxPoint x="364" y="455" as="sourcePoint" />
+            <mxPoint x="414" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="thEdo2LgNELzhUTBHd1d-13" value="Dùng chương trình" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="590" width="120" height="80" as="geometry" />
+          <mxGeometry x="380" y="545" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="thEdo2LgNELzhUTBHd1d-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="590" as="sourcePoint" />
-            <mxPoint x="570" y="540" as="targetPoint" />
+            <mxPoint x="470" y="550" as="sourcePoint" />
+            <mxPoint x="520" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thEdo2LgNELzhUTBHd1d-16" value="số lẻ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="thEdo2LgNELzhUTBHd1d-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="530" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thEdo2LgNELzhUTBHd1d-18" value="dúng" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thEdo2LgNELzhUTBHd1d-17">
+          <mxGeometry x="0.0101" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thEdo2LgNELzhUTBHd1d-19" value="số chăn" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="thEdo2LgNELzhUTBHd1d-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="thEdo2LgNELzhUTBHd1d-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="570" as="sourcePoint" />
+            <mxPoint x="380" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
